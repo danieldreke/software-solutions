@@ -1,0 +1,38 @@
+/* Add 'Edit Page' after edit button */
+/* .md-content__button::after {
+  content: "Edit Page";
+} */
+
+/* Hide repository facts (GitHub forks and stars) */
+.md-source__facts {
+  display: none;
+}
+
+/* Hide "GitHub" text */
+.md-source__repository {
+  /* display: none; */
+}
+
+/* Hide link to GitHub repository */
+.md-header__source {
+  /* display: none; */
+}
+
+h1, h2, h3, h4, h5, h6, .md-nav__link > .md-ellipsis, .md-footer__title > .md-ellipsis {
+  text-transform: capitalize;
+}
+
+title {
+  text-transform: capitalize;
+}
+
+/* .md-footer-meta__inner {
+  display: flex;
+  padding: .2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.md-copyright {
+  text-align: center;
+} */
