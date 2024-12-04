@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/git/add-changes-to-last-commit-amend/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/javascript/add-to-array/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/linux/disable-wake-up-on-mouse-event/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/linux/linuxmint/restart-cinnamon-from-cli/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/python/use-isolated-virtual-environment-venv/</loc>
+         <lastmod>2024-12-04</lastmod>
+    </url>
+</urlset>
