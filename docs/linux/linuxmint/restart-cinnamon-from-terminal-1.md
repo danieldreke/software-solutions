@@ -1,4 +1,4 @@
-1. Remember `CTRL-ALT-F7` to switch back to Desktop/GUI.
+1. Remember `CTRL-ALT-F8` to switch back to Desktop/GUI.
 1. Switch to terminal 1 via `CTRL-ALT-F1`
 1. Execute `killall -9 cinnamon`
 1. Execute `export DISPLAY=:0.0 && cinnamon --replace &`
