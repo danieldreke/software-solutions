@@ -2,4 +2,4 @@
 
 ## Welcome 👋
 
-Find a software solution by using the search bar at the top right.
+Find a software solution via menu top left or search bar top right
