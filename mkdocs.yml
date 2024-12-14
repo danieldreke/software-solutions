@@ -1,6 +1,7 @@
 site_name: Software Solutions
-site_url: https://github.com/danieldreke/software-solutions/
+site_url: https://github.com/danieldreke/software-solutions/docs/
 repo_url: https://github.com/danieldreke/software-solutions/
+edit_uri: edit/main/docs/
 copyright: I ❤️ Coding - Dan
 extra_css:
   - assets/style.css
