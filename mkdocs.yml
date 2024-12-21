@@ -20,15 +20,15 @@ plugins:
   - search
   # - git-revision-date-localized
   # - git-authors
-  - mkdocs-breadcrumbs-plugin:
-      delimiter: " > "
-      exclude_paths:
-        - "docs/mkdocs/**"
-        - "docs/mkdocs"
-        - "docs/assets"
-        - "assets"
-        - "assets/"
-        - "assets/**"
+  # - mkdocs-breadcrumbs-plugin:
+      # delimiter: " > "
+      # exclude_paths:
+        # - "docs/mkdocs/**"
+        # - "docs/mkdocs"
+        # - "docs/assets"
+        # - "assets"
+        # - "assets/"
+        # - "assets/**"
 extra_javascript:
     - assets/script.js
 extra:
