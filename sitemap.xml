@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/git/add-changes-to-last-commit-amend/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/javascript/add-to-array/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/linux/disable-wake-up-on-mouse-event/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/linux/linuxmint/restart-cinnamon-from-terminal-1/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/python/use-isolated-virtual-python-environment-venv/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/danieldreke/software-solutions/docs/signal/decrypt-signal-android-backup-on-linux-mint/</loc>
+         <lastmod>2024-12-21</lastmod>
+    </url>
+</urlset>
