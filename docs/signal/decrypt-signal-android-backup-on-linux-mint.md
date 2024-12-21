@@ -8,8 +8,11 @@ sh <(curl -L https://nixos.org/nix/install) --no-daemon
 # Start a Nix shell with the signalbackup-tools package
 nix-shell -p signalbackup-tools
 
+# Create dir for html export
+mkdir html-export
+
 # Run signalbackup-tools to export Signal backup as HTML
-signalbackup-tools signal.backup <30-digits-passphrase> --exporthtml dump-html/
+signalbackup-tools signal.backup <passphrase> --exporthtml html-export/
 ```
 
 ## Sources
