@@ -1,5 +1,5 @@
 ```bash
-# Install nix package manager for single user
+# Install Nix package manager for single user
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
 # Source the Nix profile script to set up the Nix environment
@@ -17,6 +17,6 @@ signalbackup-tools signal.backup <passphrase> --exporthtml html-export/
 
 ## Sources
 
-- [support.signal.org ~ Create Signal Backup on Android](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages)
-- [nix.dev ~ Nix Single User Installation](https://nix.dev/manual/nix/2.24/installation/installing-binary#single-user-installation)
-- [github.com ~ signalbackup-tools - Export to HTML](https://github.com/bepaald/signalbackup-tools?tab=readme-ov-file#export-to-html)
+- [Create Signal Backup ~ support.signal.org](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages)
+- [Install Nix ~ nix.dev](https://nix.dev/manual/nix/2.24/installation/installing-binary#single-user-installation)
+- [signalbackup-tools - Export to HTML ~ github.com](https://github.com/bepaald/signalbackup-tools?tab=readme-ov-file#export-to-html)
