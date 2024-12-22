@@ -17,6 +17,6 @@ python script.py
 deactivate
 ```
 
-## Source
+## Sources
 
-https://realpython.com/python-virtual-environments-a-primer/
+1. https://realpython.com/python-virtual-environments-a-primer/
