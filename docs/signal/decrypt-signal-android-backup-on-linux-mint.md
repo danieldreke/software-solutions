@@ -18,5 +18,5 @@ signalbackup-tools signal.backup <passphrase> --exporthtml html-export/
 ## Sources
 
 - [Create Signal Backup ~ support.signal.org](https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages)
-- [Install Nix ~ nix.dev](https://nix.dev/manual/nix/2.24/installation/installing-binary#single-user-installation)
-- [signalbackup-tools - Export to HTML ~ github.com](https://github.com/bepaald/signalbackup-tools?tab=readme-ov-file#export-to-html)
+- [Install Nix package manager ~ nix.dev](https://nix.dev/manual/nix/2.24/installation/installing-binary#single-user-installation)
+- [Export to HTML with Nix package `signalbackup-tools` ~ github.com](https://github.com/bepaald/signalbackup-tools?tab=readme-ov-file#export-to-html)
