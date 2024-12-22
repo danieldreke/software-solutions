@@ -6,4 +6,4 @@
 git commit --amend --no-edit
 ```
 
-This command soft-resets to prelast commit and commits staged changes.
+This command soft-resets to the prelast commit on current branch and commits staged changes as new commit.
