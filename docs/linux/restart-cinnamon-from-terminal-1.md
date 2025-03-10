@@ -1,12 +1,27 @@
+## Restart Cinnamon Desktop in Terminal 1
 
 !!! Warning
     Remember `CTRL-ALT-F7` to switch from `terminal 1` back to Desktop/GUI/`terminal 7` [2].
 
-1. Please read all following steps before starting
-2. Switch to terminal 1 via `CTRL-ALT-F1`
-3. Execute `killall -9 cinnamon`
-4. Execute `export DISPLAY=:0.0 && cinnamon --replace &`
-5. Switch back to desktop via `CTRL-ALT-F7`
+1. Switch to terminal 1 via `CTRL-ALT-F1` and execute following commands:
+    ```sh
+    # Terminate Cinnamon desktop (forcefully kill all processes named 'cinnamon')
+    killall -9 cinnamon
+    # Restart Cinnamon desktop environment
+    export DISPLAY=:0.0 && cinnamon --replace &
+    ```
+2. Switch back to desktop via `CTRL-ALT-F7`
+
+<!-- # Gently terminate Cinnamon desktop
+pkill cinnamon -->
+
+<!-- ## Restart Cinnamon Desktop
+
+Open terminal and execute following command:
+```sh
+# Restart Cinnamon desktop environment
+cinnamon --replace &
+``` -->
 
 ## Sources
 
