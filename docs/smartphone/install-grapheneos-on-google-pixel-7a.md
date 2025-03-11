@@ -39,7 +39,7 @@
     1. At the end of GrapheneOS setup confirm `Disable OEM Unlocking`
 1. Verify Boot Key Hash
     1. Restart Pixel 7a and press power key to pause boot
-    2. Verify displayed boot hash key with [official Pixel 7a key](https://grapheneos.org/install/web#verified-boot-key-hash)
+    2. Verify displayed boot key hash with [official Pixel 7a key](https://grapheneos.org/install/web#verified-boot-key-hash)
 
 ## Sources
 
