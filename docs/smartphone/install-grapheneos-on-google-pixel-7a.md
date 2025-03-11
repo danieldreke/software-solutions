@@ -1,10 +1,10 @@
 # Install GrapheneOS on a Google Pixel 7a
 
 1. Prepare Linux (Mint) [1]
-    1. Install `android-sdk-platform-tools-common`
-	     ```
-        sudo apt install android-sdk-platform-tools-common
-        ```
+    1. Install Android Software Development Kit (SDK)
+	    ```
+       sudo apt install android-sdk-platform-tools-common
+       ```
     2. Check `fwupd` version
        ```
        apt-cache policy fwupd
@@ -18,6 +18,7 @@
    2. Go to `Settings > About phone`
    3. Unlock `Developer Options` by tapping 7x `Build number`
    4. Enable `OEM unlocking` in `Settings > System > Developer options`
+      1. If greyed out, connect to internet
 3. Unlock Bootloader [3]
    1. Power off Pixel 7a
    2. Press and hold together buttons `Power` and `Volume Down`
