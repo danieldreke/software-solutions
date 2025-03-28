@@ -1,11 +1,11 @@
 # Install GrapheneOS on a Google Pixel 7a
 
-1. Prepare Laptop with Linux (Mint) [1]
+1. Prepare Linux Laptop for Flashing Phone as Non-Root User [1]
     1. Check `fwupd` version
         ```
         apt-cache policy fwupd
         ```
-    1. Stop `fwupd` if version older 1.9.10 (service will start again on reboot)
+    1. Stop `fwupd` if version earlier than 1.9.10 (service will start again on reboot)
         ```
         sudo systemctl stop fwupd.service
         ```
