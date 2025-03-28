@@ -5,6 +5,10 @@ edit_uri: edit/main/docs/
 copyright: I ❤️ Coding - Dan
 extra_css:
   - assets/style.css
+exclude_docs: |
+  javascript/add-to-javascript-array.md
+  */index.md
+  *.exclude.md
 markdown_extensions:
   - pymdownx.magiclink  # Convert bare URLs into hyperlinks
   # - attr_list  # Allow setting attributes on block elements
