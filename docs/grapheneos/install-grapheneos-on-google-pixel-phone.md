@@ -3,7 +3,7 @@
 !!! Warning
     1. Backup all data from your phone if it's not a brand new phone.<br>
     2. Installing GrapheneOS wipes/erases all data on your phone.<br>
-    3. Locking your phone wipes/erases all data on your phone again.
+    3. Locking your phone's bootloader wipes/erases all data on your phone.
 
 1. Prepare Linux Laptop for Flashing Phone as Non-Root User [1]
     1. Check `fwupd` version
