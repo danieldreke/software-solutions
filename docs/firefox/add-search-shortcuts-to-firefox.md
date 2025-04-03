@@ -1,4 +1,4 @@
-# Show Add Button to Add Search Shortcuts To Firefox
+# Add Search Shortcuts To Firefox
 
 1. Open `about:config` in Firefox
 1. Click <kbd>Accept the Risk and Continue</kbd>
