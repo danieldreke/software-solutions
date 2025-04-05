@@ -1,14 +1,12 @@
 #  Install Android Apps without Google Play Store
 
 !!! Note
-    <!-- - Many apps can be installed without Google Play Store.
-    - Simply download and open an app's APK file to install the app. -->
-    - To install an app without Google Play Store, download and open its APK file from its official website, otherwise from a third-party source like [F-Droid](https://f-droid.org/en/packages/), [f-droid.org](https://f-droid.org/en/packages/), Aurora or APKMirror.
+    - To install an app without Google Play Store, download and open its APK file from its official website, if available, or from a third-party source like [f-droid.org](https://f-droid.org/en/packages/), [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/) or [apkmirror.com](https://www.apkmirror.com/).
 
 !!! Warning
-    - Only download APK files from trusted sources like F-Droid.
-    - Please verify the domain name of any link or website you want to download from.
-    - One way to verify: Compare the link's domain name with the one listed on an apps' Wikipedia page.
+    - Only download APK files from trusted sources.
+    <!-- - Please verify the domain name of any link or website you want to download from.
+    - One way to verify: Compare the link's domain name with the one listed on an apps' Wikipedia page. -->
 
 
 - [1. Official APK Download Links](#1-official-apk-download-links)
@@ -51,21 +49,11 @@
 - [Download F-Droid.apk ~ f-droid.org](https://f-droid.org/F-Droid.apk) (11.4 MB)
     (Direct Download Link)
 
-<!-- - [Download APK F-Droid Store ~ f-droid.org](https://f-droid.org/F-Droid.apk) -->
-<!-- - [Download F-Droid.apk ~ f-droid.org](https://f-droid.org/F-Droid.apk) -->
-
 ## 3. Aurora Store App (Anonymous FOSS Client for Google Play Store)
 
 - [Aurora Store Releases ~ auroraoss.com](https://auroraoss.com/downloads/AuroraStore/Release/) (Official Website)
 - [Download AuroraStore-4.7.0.apk ~ auroraoss.com](https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.0.apk) (7.9 MB)
     (Direct Download Link)
-
-<!-- - [Aurora Store Releases ~ gitlab.com](https://gitlab.com/AuroraOSS/AuroraStore/-/releases) -->
-
-<!-- - [Download APK ~ auroraoss.com](https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.0.apk)
-    (Direct Download Link) -->
-<!-- - [Aurora Store Releases ~ f-droid.org](https://f-droid.org/en/packages/com.aurora.store/) -->
-<!-- - [Download APK ~ f-droid.org](https://f-droid.org/repo/com.aurora.store_66.apk) (v4.7, 7.5 MiB) -->
 
 ## 4. APKMirror (Web Platform for Free APK Downloads)
 
