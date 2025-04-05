@@ -10,6 +10,7 @@
     - Please verify the domain name of any link or website you want to download from.
     - One way to verify: Compare the link's domain name with the one listed on an apps' Wikipedia page.
 
+
 - [1. Official APK Download Links](#1-official-apk-download-links)
     - [1.1. Firefox](#11-firefox)
     - [1.2. Signal](#12-signal)
@@ -47,7 +48,7 @@
 ## 2. F-Droid Website and Store App (Open Source Android Apps)
 
 - [F-Droid Apps ~ f-droid.org](https://f-droid.org/en/packages/) (Official Website)
-- [Download F-Droid.apk ~ f-droid.org](https://f-droid.org/F-Droid.apk)
+- [Download F-Droid.apk ~ f-droid.org](https://f-droid.org/F-Droid.apk) (11.4 MB)
     (Direct Download Link)
 
 <!-- - [Download APK F-Droid Store ~ f-droid.org](https://f-droid.org/F-Droid.apk) -->
@@ -55,9 +56,8 @@
 
 ## 3. Aurora Store App (Anonymous FOSS Client for Google Play Store)
 
-- [Aurora Store Apps ~ ]()
 - [Aurora Store Releases ~ auroraoss.com](https://auroraoss.com/downloads/AuroraStore/Release/) (Official Website)
-- [Download AuroraStore-4.7.0.apk ~ auroraoss.com](https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.0.apk)
+- [Download AuroraStore-4.7.0.apk ~ auroraoss.com](https://auroraoss.com/downloads/AuroraStore/Release/AuroraStore-4.7.0.apk) (7.9 MB)
     (Direct Download Link)
 
 <!-- - [Aurora Store Releases ~ gitlab.com](https://gitlab.com/AuroraOSS/AuroraStore/-/releases) -->
