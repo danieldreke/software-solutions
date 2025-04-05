@@ -11,13 +11,14 @@
     - One way to verify: Compare the link's domain name with the one listed on an apps' Wikipedia page.
 
 - [1. Official APK Download Links](#1-official-apk-download-links)
-  - [1.1. Firefox](#11-firefox)
-  - [1.2. Signal](#12-signal)
-  - [1.3. Telegram](#13-telegram)
-  - [1.4. Whatsapp](#14-whatsapp)
+    - [1.1. Firefox](#11-firefox)
+    - [1.2. Signal](#12-signal)
+    - [1.3. Telegram](#13-telegram)
+    - [1.4. Whatsapp](#14-whatsapp)
 - [2. F-Droid Website and Store App (Open Source Android Apps)](#2-f-droid-website-and-store-app-open-source-android-apps)
 - [3. Aurora Store App (Anonymous FOSS Client for Google Play Store)](#3-aurora-store-app-anonymous-foss-client-for-google-play-store)
 - [4. APKMirror (Web Platform for Free APK Downloads)](#4-apkmirror-web-platform-for-free-apk-downloads)
+
 
 ## 1. Official APK Download Links
 
