@@ -36,3 +36,8 @@ title {
 .md-copyright {
   text-align: center;
 } */
+
+/* Color code like grok does */
+.md-typeset code {
+  color: rgb(230, 192, 123);
+}
