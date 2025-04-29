@@ -7,6 +7,7 @@ on:
     paths:
       - '**.yml'
       - '**.md'
+      - '**.css'
 permissions:
   contents: write
 jobs:
