@@ -2,18 +2,21 @@ document.title = document.title.split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
-const navitems = document.querySelectorAll('span.md-ellipsis');
-navitems.forEach(navitem => {
-    if (navitem.innerHTML.toLowerCase().includes('grapheneos')) {
-        navitem.innerHTML = navitem.innerHTML.replace(/grapheneos/i, 'GrapheneOS');
-        navitem.innerHTML = navitem.innerHTML.replace(/vpn/i, 'VPN');
-    }
-});
+// Fixes the case of specific words in the document
+function fixCase(text) {
+    return text
+        .replace(/grapheneos/gi, 'GrapheneOS')
+        .replace(/vpn/gi, 'VPN');
+}
 
-const navtitles = document.querySelectorAll('label.md-nav__title');
-navtitles.forEach(navtitle => {
-    if (navtitle.innerHTML.toLowerCase().includes('grapheneos')) {
-        navtitle.innerHTML = navtitle.innerHTML.replace(/grapheneos/i, 'GrapheneOS');
-        navtitle.innerHTML = navtitle.innerHTML.replace(/vpn/i, 'VPN');
-    }
+const selectors = [
+    'h1'
+    , 'span.md-ellipsis' // nav items
+    , 'label.md-nav__title' // nav titles
+];
+
+selectors.forEach(selector => {
+    document.querySelectorAll(selector).forEach(element => {
+        element.innerHTML = fixCase(element.innerHTML);
+    });
 });
