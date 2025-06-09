@@ -8,12 +8,12 @@
 
 ## 1. Download APKs from Official Sources
 
-| Name     | Download Page                                                               | Source Code                                                                                                  | Download Link                                                                                                                                                       |
-| -------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Firefox  | [Firefox for Android Releases](https://ftp.mozilla.org/pub/fenix/releases/) | [Mozilla-Central](https://hg-edge.mozilla.org/mozilla-central/file/96bd92b2e4fb987ae5d7acdb636d00d65ab13f8d) | [Download fenix-137.0-android-x86_64.apk](https://ftp.mozilla.org/pub/fenix/releases/137.0/android/fenix-137.0-android-x86_64/fenix-137.0.multi.android-x86_64.apk) |
-| Signal   | [Signal Android APK](https://signal.org/android/apk/)                       | [Signal Github](https://github.com/signalapp/Signal-Android)                                                 | [Download Signal-Android-7.38.7.apk](https://updates.signal.org/android/Signal-Android-website-prod-universal-release-7.38.7.apk)                                   |
-| Telegram | [Telegram for Android](https://telegram.org/android/apk)                    | [Telegram Github](https://github.com/DrKLO/Telegram)                                                         | [Download Telegram.apk](https://telegram.org/dl/android/apk)                                                                                                        |
-| Whatsapp | [Whatsapp for Android](https://www.whatsapp.com/android)                    | ⚠️ Closed Source                                                                                              | -                                                                                                                                                                   |
+| Name     | Download Page                                                               | Source Code                                                  | Download Link                                                                          |
+| -------- | --------------------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| Firefox  | [Firefox for Android Releases](https://ftp.mozilla.org/pub/fenix/releases/) | [Firefox GitHub](https://github.com/mozilla-firefox/firefox) | -                                                                                      |
+| Signal   | [Signal Android APK](https://signal.org/android/apk/)                       | [Signal Github](https://github.com/signalapp/Signal-Android) | [Download latest release](https://github.com/signalapp/Signal-Android/releases/latest) |
+| Telegram | [Telegram for Android](https://telegram.org/android/apk)                    | [Telegram Github](https://github.com/DrKLO/Telegram)         | [Download Telegram.apk](https://telegram.org/dl/android/apk)                           |
+| Whatsapp | [Whatsapp for Android](https://www.whatsapp.com/android)                    | ⚠️ Closed Source                                              | -                                                                                      |
 
 ## 2. Download APKs from Third-Party Sources
 
