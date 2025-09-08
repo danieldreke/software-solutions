@@ -6,7 +6,8 @@ document.title = document.title.split(' ')
 function fixCase(text) {
     return text
         .replace(/grapheneos/gi, 'GrapheneOS')
-        .replace(/vpn/gi, 'VPN');
+        .replace(/vpn/gi, 'VPN')
+        .replace(/pdf/gi, 'PDF');
 }
 
 const selectors = [
