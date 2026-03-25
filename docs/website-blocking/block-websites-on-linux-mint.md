@@ -3,6 +3,7 @@
    sudo apt install mintnanny
    ```
 2. Open *Domain Blocker* and add websites you want to block
-3. Test blocked websites in a browser
-    - If still accessible, clear browser cache:
-        - In Brave, open <brave://net-internals/#dns> and click <kbd>Clear host cache</kbd>
+3. Test by opening blocked websites in your browser
+    - If blocked websites still accessible, clear browser cache:
+        - Brave: Open `brave://net-internals/#dns` and click <kbd>Clear host cache</kbd>
+        - Firefox: Open `about:networking#dns` and click <kbd>Clear DNS Cache</kbd>
