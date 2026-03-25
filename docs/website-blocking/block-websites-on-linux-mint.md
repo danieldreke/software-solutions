@@ -4,6 +4,6 @@
 3. Add websites you want to block
 4. Test blocked websites in a browser
     1. Clear browser cache if still accessible
-    2. In Brave open
-        `brave://net-internals/#dns`
-    3. Click *Clear host cache*
+        1. In Brave open
+            `brave://net-internals/#dns`
+        2. Click *Clear host cache*
