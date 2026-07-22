@@ -1,18 +1,27 @@
 <!-- # Disable Wake up on Mouse Event -->
 
-1. List USB devices with waking up enabled
-    - `grep . /sys/bus/usb/devices/*/power/wakeup | grep enabled`
-1. Find mouse by removing USB receiver and reexecuting command
-1. Disable wake up on mouse move
-    - `sudo su`
-    - `echo disabled > /sys/bus/usb/devices/1-3/power/wakeup`
-      - replace `1-3` with listed number of grep command
-1. Disable wake up on mouse move permanently
-    - `sudo crontab -e`
-    - Add `@reboot echo disabled > /sys/bus/usb/devices/1-3/power/wakeup`
-      - replace `1-3` with listed number of grep command
-
-## Sources
-
-- [askubuntu.com ~ Wake up from suspend using wireless USB keyboard or mouse (for any Linux Distro)](https://askubuntu.com/a/848699)
-- [glowing-tortoise.com ~ Turn off returning from suspend by the mouse](https://glowing-tortoise.com/en/archives/171)
+```bash
+# 1. List USB devices with wakeup enabled
+grep . /sys/bus/usb/devices/*/power/wakeup | grep enabled
+ 
+# 2. Find the mouse: unplug the USB receiver and rerun the command above
+#    whichever entry disappears is the dongle (e.g. 1-8)
+ 
+# 3. Temporarily disable wakeup (replace 1-8 with your device path)
+echo disabled | sudo tee /sys/bus/usb/devices/1-8/power/wakeup
+ 
+# 4. Identify vendor/product ID
+udevadm info -a -p /sys/bus/usb/devices/1-8 | grep -E "idVendor|idProduct|ATTRS\{manufacturer\}|ATTRS\{product\}" | head -6
+ 
+# 5. Create a udev rule (permanent fix)
+sudo nano /etc/udev/rules.d/99-disable-mouse-wakeup.rules
+# Paste (replace xxxx/yyyy with your actual IDs from step 4):
+# ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="xxxx", ATTR{idProduct}=="yyyy", ATTR{power/wakeup}="disabled"
+ 
+# 6. Reload and apply the rule
+sudo udevadm control --reload-rules && sudo udevadm trigger --action=add --subsystem-match=usb
+ 
+# 7. Verify (unplug/replug the dongle or reboot, then run - should read "disabled")
+cat /sys/bus/usb/devices/1-8/power/wakeup
+```
+ 
